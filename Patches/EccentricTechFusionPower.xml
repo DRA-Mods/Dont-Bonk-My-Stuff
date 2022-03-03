@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Eccentric Tech - Fusion Power</li>
+    </mods>
+    <label>Enemies ignore fusion fuel pipes:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Eccentric_FuelPipe"]/building</xpath>
+        <value>
+          <ai_neverTrashThis>true</ai_neverTrashThis>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

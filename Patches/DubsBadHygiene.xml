@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore plumbing:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="sewagePipeStuff"]</xpath>
+        <value>
+          <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore sewage outlets:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="SewageOutlet"]/building</xpath>
+        <value>
+          <ai_neverTrashThis>true</ai_neverTrashThis>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore air-con pipes:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="airPipe"]/building</xpath>
+        <value>
+          <ai_neverTrashThis>true</ai_neverTrashThis>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore latrines:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PitLatrine"]</xpath>
+        <value>
+          <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore primitive wells:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PrimitiveWell"]</xpath>
+        <value>
+          <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore water tubs:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="WashBucket"]</xpath>
+        <value>
+          <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore water troughs:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="WaterTrough"]</xpath>
+        <value>
+          <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore water bowls:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PetWaterBowl"]</xpath>
+        <value>
+          <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore litter boxes:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="LitterBox"]</xpath>
+        <value>
+          <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore burn pits:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="BurnPit"]/building</xpath>
+        <value>
+          <ai_neverTrashThis>true</ai_neverTrashThis>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore irrigation sprinklers:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="IrrigationSprinkler"]/building</xpath>
+        <value>
+          <ai_neverTrashThis>true</ai_neverTrashThis>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <label>Enemies ignore fire sprinklers:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="FireSprinkler"]/building</xpath>
+        <value>
+          <ai_neverTrashThis>true</ai_neverTrashThis>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>False</enabled>
+    <mods>
+      <li>Rimefeller</li>
+    </mods>
+    <label>Enemies ignore gas pipes:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="VPE_GasPipe"]/building</xpath>
+        <value>
+          <ai_neverTrashThis>true</ai_neverTrashThis>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Rimefeller</li>
+    </mods>
+    <label>Enemies ignore subterranean gas pipes:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="VPE_GasPipeSub"]/building</xpath>
+        <value>
+          <ai_neverTrashThis>true</ai_neverTrashThis>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

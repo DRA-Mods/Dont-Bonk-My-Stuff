@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Rimefeller</li>
+    </mods>
+    <label>Enemies ignore oil pipelines:</label>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="OilPipeline"]</xpath>
+        <value>
+          <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

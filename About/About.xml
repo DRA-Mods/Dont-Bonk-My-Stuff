@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <packageId>Dra.DontBonkMyStuff</packageId>
+  <name>Don't Bonk My Stuff!</name>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <author>Sokyran, Hush</author>
+  <!--<url>https://github.com/DRA-Mods/More-Frosty-RimFridge-Drinks</url>-->
+  <description>
+Do you like my mods? You can support me on Ko-Fi: https://ko-fi.com/sokyran
+
+Have you ever loaded your assault force onto your SRTS shuttle, and sent them to combat, only for the enemies to completely ignore your team and rush straight for your shuttle? Have you ever been annoyed how much they despise those shuttles?
+
+What about when you're getting raided, and the raiders just being annoying and focusing on your cables or water pipes that basically cost you nothing but tiny bit of time to repair?
+
+Well, time for it no more! With this mod, your shuttles should never be targeted by your enemies, making them less annoying and that tiny bit more threatening by making them actually focus on your colonists.
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  </loadAfter>
+</ModMetaData>
